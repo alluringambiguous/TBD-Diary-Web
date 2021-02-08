@@ -6,7 +6,7 @@ const WelcomePage = () => {
   const classes = useStyles();
   return (
     <div className={classes.root}>
-      <h1 className={classes.heading}>Welcome to Boilerplate </h1>
+      <h1 className={classes.heading}>Welcome to Boiler </h1>
       <Link className={classes.link} to="/add/people">
         <Button
           size="large"
